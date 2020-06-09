@@ -1,0 +1,10 @@
+.UserCard {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background-color: lightblue;
+    align-items: center;
+    margin: 20px;
+    border: 5px solid darkblue;
+    border-radius: 5px;
+}

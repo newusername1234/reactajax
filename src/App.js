@@ -1,13 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import UserProfile from './components/UserProfile';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        hello
+        <h1>Rando User Profiles</h1>
       </header>
+        <div className="UserRow">
+          <UserProfile />
+          <UserProfile />
+          <UserProfile />
+        </div>
+        <div className="UserRow">
+          <UserProfile />
+          <UserProfile />
+          <UserProfile />
+        </div>
+        <div className="UserRow">
+          <UserProfile />
+          <UserProfile />
+          <UserProfile />
+        </div>
     </div>
   );
 }
